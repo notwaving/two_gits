@@ -85,6 +85,10 @@ body {
 p {
   font-size: 17px;
 }
+.container {
+  padding: 10px
+  margin-bottom: solid gray 1px;
+}
 
 .center {
   text-align: center;
@@ -93,6 +97,7 @@ p {
   display: block;
   text-align: center;
   color: green;
+  font-size: 68px;
 }
 
 /*h3 {
