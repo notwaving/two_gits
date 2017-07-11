@@ -29,3 +29,7 @@ h2 {
 #img-rounded {
   background-color: #f6f6f6
 }
+
+img.header {
+  height: 70px;
+}
