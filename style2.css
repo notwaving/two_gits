@@ -1,17 +1,25 @@
-#social-buttons button {
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 13;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    height: auto;
+}
+li#def {
+    display: inline-block;
+    list-style-type: none;
+}
+ul#def li {
+padding: 10px 50px 0px 45px;
+}
+
+a#nav {
   color: white;
-}
-.btn-twitter {
-  background-color: #00acee;
-  border-color: #009ad5;
-}
-.btn-facebook {
-  background-color: #4868ac;
-  border-color: #314776;
-}
-.​btn​-​pinterest​ {
-  background​-​color​:​ #b62f26;
-  border​-​color​:​ #b62f26;
+  font-weight: bold;
+  font-size: 15px;
 }
 html {
   box-sizing: border-box;
@@ -25,11 +33,4 @@ body {
 h2 {
   font font-family: 'Coming Soon', cursive;
   font-size: 30px;
-}
-#img-rounded {
-  background-color: #f6f6f6
-}
-
-img.header {
-  height: 70px;
 }
