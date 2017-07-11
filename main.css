@@ -82,12 +82,25 @@ body {
   text-decoration: none;
 }
 
-h2 {
-  font font-family: 'Coming Soon', cursive;
-  font-size: 30px;
+p {
+  font-size: 17px;
 }
 
-.fa {
+.center {
+  text-align: center;
+}
+.glyphicon {
+  display: block;
+  text-align: center;
+  color: green;
+}
+
+/*h3 {
+  font font-family: 'Coming Soon', cursive;
+  font-size: 30px;
+}*/
+
+/*.fa {
   text-align: center;
   font-size: 68px;
-}
+}*/
