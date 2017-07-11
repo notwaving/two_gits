@@ -13,3 +13,19 @@
   background​-​color​:​ #b62f26;
   border​-​color​:​ #b62f26;
 }
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 200;
+}
+body {
+  margin: 0;
+  font-family: "Raleway", cursive;
+}
+h2 {
+  font font-family: 'Coming Soon', cursive;
+  font-size: 30px;
+}
+#img-rounded {
+  background-color: #f6f6f6
+}
