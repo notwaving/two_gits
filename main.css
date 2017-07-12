@@ -1,11 +1,17 @@
 html {
   box-sizing: border-box;
-  /*font-size: 20px;*/
   font-weight: 200;
+
 }
 body {
   margin: 0;
   font-family: "Raleway", cursive;
+  background:: #D8ECF9; /*fallback for old browsers*/
+  background: -webkit-linear-gradient(to bottom, #D8ECF9, #EEEEEE);   /*Chrome 10-25, Safari 5.1-6*/
+  background: linear-gradient(to bottom, #D8ECF9, #EEEEEE);  /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
 *, *:before, *:after {
   box-sizing: inherit;
