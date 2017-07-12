@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 20px;
+  /*font-size: 20px;*/
   font-weight: 200;
 }
 body {
@@ -86,8 +86,9 @@ p {
   font-size: 17px;
 }
 .container {
-  padding: 10px
-  margin-bottom: solid gray 1px;
+  padding-bottom: 30px !important;
+  border-bottom: 1px solid #eee !important;
+
 }
 
 .center {
@@ -100,12 +101,13 @@ p {
   font-size: 68px;
 }
 
-/*h3 {
-  font font-family: 'Coming Soon', cursive;
-  font-size: 30px;
-}*/
+#authors {
+  text-align: right;
+  padding-right: 30px;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 22px !important;
+}
 
-/*.fa {
-  text-align: center;
-  font-size: 68px;
-}*/
+h3 {
+  font-weight: bold;
+}
