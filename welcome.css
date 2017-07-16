@@ -32,16 +32,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-div.signup_container {
+div.welcome {
   background: black;
   color: white;
-  height: 100px;
+  height: auto;
 }
 
 div.signup_content {
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
+  masrgin-top: auto;
   display: block;
   position: relative;
   top: 100%;
@@ -71,3 +71,10 @@ h2.destination  {
 #adventure {background-image: url(digi_nomad_pics/adventure.png);}
 #wifi {background-image: url(digi_nomad_pics/wifi.png);}
 #untapped {background-image: url(digi_nomad_pics/untapped.png);}
+
+#authors {
+  text-align: right;
+  padding-right: 30px;
+  font-size: 22px !important;
+  text-decoration: none;
+}
