@@ -17,6 +17,10 @@ img#logo {
   height: 80px;
 }
 
+navbar navbar-inverse navbar-fixed-top li a {
+  color: #ffffff!important;
+}
+
 html {
   box-sizing: border-box;
   font-size: 20px;
