@@ -25,6 +25,7 @@ html {
 body {
   margin: 0;
   font-family: inherit;
+  padding-top: 70px;
 }
 
 div.signup_container {
