@@ -1,51 +1,20 @@
-.site_nav ul {
-    color: white;
-}
-
-div#navbar {
-    left: 0;
-    width: 100%;
-    background-color: black;
-    height: auto;
-    position: fixed;
-    font-family: 'Lato', sans-serif;
-    display: inline-block;
-}
 
 img#logo {
-    width: 150px;
+    max-width: 180px;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
-li#site_nav {
-    display: inline-block;
-    list-style-type: none;
-    font-family: 'Lato', sans-serif;
-}
-ul {
-  list-style-type: none;
-}
-ul#def li {
-padding: 0px 20px 0px 20px;
-}
-
-img#nav {
-  max-width: 150px;
-}
-
-a#nav {
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-nav.social {
-    display: block;
-    z-index: 2;
-    position: absolute;
-    right: 55px;
-    width: auto;
-    height: 48px;
-    overflow: hidden;
+.navbar-inverse {
+  height: 80px;
 }
 
 html {
