@@ -1,25 +1,51 @@
-#navbar {
-    position: fixed;
-    top: 0;
+.site_nav ul {
+    color: white;
+}
+
+div#navbar {
     left: 0;
     width: 100%;
-    z-index: 13;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
+    background-color: black;
     height: auto;
+    position: fixed;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
 }
-li#def {
+
+img#logo {
+    width: 150px;
+}
+
+li#site_nav {
     display: inline-block;
     list-style-type: none;
+    font-family: 'Lato', sans-serif;
+}
+ul {
+  list-style-type: none;
 }
 ul#def li {
-padding: 10px 50px 0px 45px;
+padding: 0px 20px 0px 20px;
+}
+
+img#nav {
+  max-width: 150px;
 }
 
 a#nav {
   color: white;
   font-weight: bold;
   font-size: 15px;
+}
+
+nav.social {
+    display: block;
+    z-index: 2;
+    position: absolute;
+    right: 55px;
+    width: auto;
+    height: 48px;
+    overflow: hidden;
 }
 
 html {
@@ -29,11 +55,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: "Raleway", cursive;
-}
-h2 {
-  font font-family: 'Coming Soon', cursive;
-  font-size: 30px;
+  font-family: inherit;
 }
 
 div.signup_container {
