@@ -131,6 +131,8 @@ div.signup_container {
   background: black;
   color: white;
   height: auto;
+  text-align: center;
+  align-content: center;
 }
 
 div.signup_content {
