@@ -19,7 +19,7 @@ img#logo {
 }
 
 navbar navbar-inverse navbar-fixed-top li a {
-  color: #ffffff!important;
+  /*color: #ffffff!important;*/
 }
 
 html {
@@ -29,7 +29,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Raleway", cursive;
   padding-top: 50px;
 }
 
@@ -76,6 +76,17 @@ h2.destination  {
 #authors {
   text-align: right;
   padding-right: 30px;
+  font-family: 'Just Another Hand', cursive;
   font-size: 22px !important;
   text-decoration: none;
+}
+
+a, a:active, a:visited{
+color: inherit;
+text-decoration: none;
+}
+
+a:hover {
+    color: green !important;
+    text-decoration: none;
 }
