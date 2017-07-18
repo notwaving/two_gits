@@ -4,4 +4,4 @@ Our entry for the Code First: Girls competition, summer 2017.
 
 Planning
 
-![Alt text](/images/planning.jpg?raw=true "Title")
+![Alt text](planning.jpg?raw=true "Title") 
