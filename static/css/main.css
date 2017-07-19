@@ -125,6 +125,10 @@ p {
 
 }
 
+.howitworks_container {
+  text-align: center;
+}
+
 /*form*/
 
 div.signup_container {
