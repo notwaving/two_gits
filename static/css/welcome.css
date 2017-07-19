@@ -66,9 +66,9 @@ h2.destination  {
   color: white;
 }
 
-#adventure {background-image: url("../../images/digi_nomad_pics/adventure.png");}
-#wifi {background-image: url("../../images/digi_nomad_pics/wifi.png");}
-#untapped {background-image: url("../../images/digi_nomad_pics/untapped.png");}
+#adventure {background-image: url("../static/images/digi_nomad_pics/adventure.png");}
+#wifi {background-image: url("../static/images/digi_nomad_pics/wifi.png");}
+#untapped {background-image: url("../static/images/digi_nomad_pics/untapped.png");}
 
 .thumbnail {
     display: block;

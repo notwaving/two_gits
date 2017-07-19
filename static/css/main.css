@@ -72,11 +72,11 @@ body {
   flex-direction: column;
 }
 
-.panel1 { background-image:url("../../images/digi_nomad_pics/panel1.jpg"); }
-.panel2 { background-image:url("../../images/digi_nomad_pics/panel2.jpg"); }
-.panel3 { background-image:url("../../images/digi_nomad_pics/panel3.jpg"); }
-.panel4 { background-image:url("../../images/digi_nomad_pics/panel4.jpg"); }
-.panel5 { background-image:url("../../images/digi_nomad_pics/panel5.jpg"); }
+.panel1 { background-image:url("/static/images/digi_nomad_pics/panel1.jpg"); }
+.panel2 { background-image:url("/static/images/digi_nomad_pics/panel2.jpg"); }
+.panel3 { background-image:url("/static/images/digi_nomad_pics/panel3.jpg"); }
+.panel4 { background-image:url("/static/images/digi_nomad_pics/panel4.jpg"); }
+.panel5 { background-image:url("/static/images/digi_nomad_pics/panel5.jpg"); }
 
 
 /* Flex Items */

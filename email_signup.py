@@ -6,7 +6,7 @@ app = Flask("MyApp")
 def landing_page():
     return render_template("index.html")
 
-@app.route("/welcome")
+@app.route("/welcome", methods=["POST"])
 def welcome():
     return render_template("welcome.html")
 
