@@ -16,10 +16,7 @@ img#logo {
 
 .navbar-inverse {
   height: 80px;
-}
-
-navbar navbar-inverse navbar-fixed-top li a {
-  color: #ffffff!important;
+  background-color: black;
 }
 
 
